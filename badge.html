@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Badge Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .badge-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            margin: 20px;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .badge-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .badge-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 5px solid #333;
+        }
+
+        .badge-description {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .view-badge {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .view-badge:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Badge Showcase</h1>
+    </header>
+
+    <div class="badge-container">
+        <div class="badge-title">Your Badge</div>
+        <div class="badge-image">
+            <img src="https://via.placeholder.com/150" alt="Your Badge">
+        </div>
+        <div class="badge-description">
+            This is your personal badge. Display it proudly!
+        </div>
+        <a href="#" class="view-badge">View Badge</a>
+    </div>
+
+    <footer>
+        © 2024 Badge Showcase. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
